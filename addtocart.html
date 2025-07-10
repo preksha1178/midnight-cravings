@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="addtocart.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="row">
+            <div class="col-md-8 cart">
+                <div class="title">
+                    <div class="row">
+                        <div class="col"><h4><b> Cart</b></h4></div>
+                        <div class="col align-self-center text-right text-muted">3 items</div>
+                        
+                    </div>
+                </div>    
+                <div class="row border-top border-bottom">
+                    <div class="row main align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="assets/img/burger cart.jpg"></div>
+                        <div class="col">
+                            <div class="row text-muted">Item</div>
+                            <div class="row">Loaded Chicken Burger</div>
+                        </div>
+                        <div class="col">
+                            <a href="#">-</a><a href="#" class="border">3</a><a href="#">+</a>
+                        </div>
+                        <div class="col"> 540.00<span class="close" style="padding-left: 50px;">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row main align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="/assets/img/pizza-1.png"></div>
+                        <div class="col">
+                            <div class="row text-muted">Item</div>
+                            <div class="row">Veg wave Pizza</div>
+                        </div>
+                        <div class="col">
+                            <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+                        </div>
+                        <div class="col">250.00 <span class="close" style="padding-left: 50px;">&#10005;</span></div>
+                    </div>
+                </div>
+                <div class="row border-top border-bottom">
+                    <div class="row main align-items-center">
+                        <div class="col-2"><img class="img-fluid" src="/assets/img/shake cart.jpg"></div>
+                        <div class="col">
+                            <div class="row text-muted">Item</div>
+                            <div class="row"> Choco Oreo Shake</div>
+                        </div>
+                        <div class="col">
+                            <a href="#">-</a><a href="#" class="border">2</a><a href="#">+</a>
+                        </div>
+                        <div class="col"> 398.00 <span class="close" style="padding-left: 50px;"> &#10005;</span></div>
+                    </div>
+                </div>
+                <div class="back-to-shop"><a href="index.html">&leftarrow;</a><span class="text-muted">Back to Home</span></div>
+            </div>
+            <div class="col-md-4 summary">
+                <div><h5><b>Summary</b></h5></div>
+                <hr>
+                <div class="row">
+                    <div class="col" style="padding-left:0;">ITEMS 3</div>
+                    <div class="col text-right">1197.00</div>
+                </div>
+                <form>
+                    <p>Delivery Charges</p>
+                    <select><option class="text-muted"> According to your location </option></select>
+                    <p>Apply Coupon</p>
+                    <input id="code" placeholder="Enter Coupon Code">
+                </form>
+                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col">TOTAL PRICE</div>
+                    <div class="col text-right"><b>1197.00</b></div>
+                </div>
+                <button class="btn">CHECKOUT</button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
