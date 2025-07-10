@@ -2,7 +2,7 @@
 
 **Midnight Cravings** is a modern, responsive food delivery website designed specifically for night-time cravings. Developed using **HTML5**, **CSS3**, **JavaScript**, and **Bootstrap**, this project simulates a real-world restaurant experience with visually rich galleries, customer testimonials, interactive components, and a dynamic contact section.
 
-🌐 **Live Demo**: [https://yourusername.github.io/midnight-cravings](https://yourusername.github.io/midnight-cravings)  
+🌐 **Live Demo**: [https://preksha1178.github.io/midnight-cravings](https://preksha1178.github.io/midnight-cravings)  
 📂 **GitHub Repository**: [https://github.com/preksha1178/midnight-cravings](https://github.com/preksha1178/midnight-cravings)
 
 ---
@@ -33,11 +33,6 @@
   - [Google Maps Embed](https://developers.google.com/maps/documentation/embed)
 
 ---
-
-## 📁 Folder Structure
-
----
-
 
 ## 📷 Screenshots
 
