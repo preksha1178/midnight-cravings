@@ -995,7 +995,8 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url( /assets/img/offer\ background.jpg ) center center no-repeat;
+ background: url("../img/offerbackground.jpg")
+ center center no-repeat;
   background-size: cover;
   position: relative;
   
@@ -1202,7 +1203,7 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background: url("/assets/img/background\ dishes.jpeg") center center no-repeat;
+ background: url("../img/backgroungdishes.jpeg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -1309,7 +1310,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("/assets/img/reveiew.jpg") no-repeat;
+  background: url("../img/reveiew.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
